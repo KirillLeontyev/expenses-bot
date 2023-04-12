@@ -5,8 +5,9 @@ import os
 import re
 import sys
 from functions import *
+from settings import *
 
-API_TOKEN =
+API_TOKEN = SEC_TOKEN
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 bot_history = History()
